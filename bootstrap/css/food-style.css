@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(88, 86, 86);
+    color: white;
+    margin: 10px;
+}
+.row {
+    margin-bottom: 15px;
+}
+
+.row > div {
+    border: 5px solid rgb(217, 255, 0);
+    background-color: gray;
+}
+
+.box:hover {
+    background-color: black;
+}
+
+.title {
+    border: 3px dashed rgb(18, 196, 18);
+    text-align: center;
+    width: 250px;
+    background-color: black;
+    margin: 5px;
+}
+
