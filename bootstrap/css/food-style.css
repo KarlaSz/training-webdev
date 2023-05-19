@@ -1,30 +1,70 @@
 body {
-    background-color: rgb(88, 86, 86);
-    color: white;
     margin: 10px;
+    margin-top: 20px;
+    font-family: Helvetica;
+}
+
+h1 {
+    text-align: center;
 }
 .row {
     margin-bottom: 15px;
 }
 
-.row > div {
-    border: 5px solid rgb(217, 255, 0);
+.row > section > div {
+    border: 3px solid black;
     background-color: gray;
 }
 
-.box:hover {
-    background-color: black;
-}
 
-.title {
-    border: 3px dashed rgb(18, 196, 18);
+.title1 {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
     text-align: center;
-    width: 250px;
-    background-color: black;
-    margin: 5px;
+    width: 150px;
+    float: right;
+    background-color: pink;
+    font-size: 125%;
+    font-weight: bold;
 }
 
-.title:hover {
-    background-color: gray;
+.title2 {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    text-align: center;
+    width: 150px;
+    float: right;
+    background-color: brown;
+    font-size: 125%;
+    color: white;
+    font-weight: bold;
 }
+
+.title3 {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    text-align: center;
+    width: 150px;
+    float: right;
+    background-color: #d4cd96;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.content {
+    padding: 10px;
+}
+
+p{
+    clear: right;
+}
+
+
+section {
+    margin-bottom: 15px;
+}
+
+
+
+
 
