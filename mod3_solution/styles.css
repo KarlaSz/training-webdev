@@ -1,17 +1,4 @@
-.box {
-    background-color: rgb(178, 178, 178);
-}
 
-
-.titlebody {
-   margin: 10px;
-   padding: 5px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-size: 30px;
-   
-}
 #navbarlinks ul li {
     display: flex;
    align-items: center;
@@ -50,6 +37,13 @@
 
 .navbar-light .navbar-toggler{
     border: 2px solid;
+}
+
+.titlebody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
 }
 
 
