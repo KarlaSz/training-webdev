@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: #000000;
+  background-color: #f0f0f0;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #f1b937;
   border-radius: 0;
   border: 0;
 }
@@ -50,11 +50,12 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #000000;
   text-align: center;
 }
 #nav-list a:hover {
   background: #E7E7E7;
+
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -68,13 +69,13 @@ body {
   padding-bottom: 0;
 }
 #phone div { /* We Deliver */
-  color: #557c3e;
+  color: #ffffff;
   text-align: right;
   padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #000000;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -87,7 +88,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #f1b937;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -100,7 +101,7 @@ body {
   font-size: 1.3em;
 }
 #address p {
-  color: #557c3e;
+  color: #ffffff;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -116,8 +117,8 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #797979;
+  border: 2px solid #797979;
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -125,7 +126,7 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #797979;
   overflow: hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
@@ -151,12 +152,21 @@ body {
   color: #fff;
   opacity: .8;
 }
+
+.title {
+  background-color: #b8ababa6;
+  color: #ffffff;
+  opacity: .7;
+  width: 550px;
+  font-size: 40px;
+}
+
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
 .category-tile { 
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #797979;
   overflow: hidden;
   width: 200px;
   height: 200px;
@@ -175,7 +185,7 @@ body {
   opacity: .8;
 }
 .category-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px #3F0C1F;
 }
 
 #menu-categories-title + div {
@@ -214,8 +224,9 @@ body {
   bottom: 0;
   right: 0;
   width: 80px;
-  background-color: #557c3e;
+  background-color: #f1b937;
   text-align: center;
+  border-radius: 10px;
 }
 .menu-item-description {
   padding-right: 30px;
@@ -301,7 +312,7 @@ h3.menu-item-title {
     padding: 10px;
     border: 2px solid #fff;
     background-color: #f6b319;
-    color: #951c49;
+    color: #656565;
   }
   #xs-deliver {
     margin-top: 5px;
