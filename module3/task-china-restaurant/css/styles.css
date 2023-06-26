@@ -304,6 +304,11 @@ h3.menu-item-title {
     font-size: 1em;
     margin-right: 5px;
   }
+  .jumbotron h2 {
+    font-size: 28px;
+    width: auto;
+    text-align: center;
+  }
 
   #call-btn > a {
     font-size: 1.5em;
@@ -365,6 +370,10 @@ h3.menu-item-title {
     font-size: 6vw;
   }
   /* End Header */
+
+  .jumbotron h2 {
+    font-size: 10px;
+  }
   
   /* Home page */
   #menu-tile, #specials-tile {
